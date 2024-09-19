@@ -2,6 +2,11 @@ package main
 
 import (
 	"fmt"
+	"main/day1"
+	"main/day2"
+	"main/day3"
+	"main/day4"
+	"main/day5"
 	"os"
 )
 
@@ -24,9 +29,10 @@ func prepScript() {
 }
 
 func main() {
-	prepScript()
-	// day1.Solution()
-	// day2.Solution()
-	// day3.Solution()
-	// day4.Solution()
+	// prepScript()
+	day1.Solution()
+	day2.Solution()
+	day3.Solution()
+	day4.Solution()
+	day5.Solution()
 }

@@ -83,5 +83,5 @@ func solution2() int {
 }
 
 func Solution() {
-	fmt.Printf("Day 4: Solution 1: %v, Solution 2: %v", solution1(), solution2())
+	fmt.Printf("Day 4: Solution 1: %v, Solution 2: %v\n", solution1(), solution2())
 }
